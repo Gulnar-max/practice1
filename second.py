@@ -12,7 +12,7 @@ def inputNumbers(x):
                 a.append(number)
                 is_OK = True
             except ValueError:
-                print("Ты ошибся. Вводить надо целые числа!")
+                print("Ты ввел неверное число. Вводить  целые числа!")
     return a
 
 
